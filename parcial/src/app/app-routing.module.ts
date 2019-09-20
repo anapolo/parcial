@@ -24,7 +24,19 @@ const routes: Routes = [
           loadChildren:'./grupo-b/grupo-b.module#GrupoBModule'
       }
   ]
-}];
+},
+{
+    path: 'shop',
+    component: AppComponent,
+    children: [
+        {
+            path: '',
+            loadChildren:'./shop/shop.module#ShopModule'
+        }
+    ]
+  }
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {useHash:true})],

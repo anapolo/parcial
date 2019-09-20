@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { GrupoAComponent } from './grupo-a/grupo-a.component';
 import { GrupoBComponent } from './grupo-b/grupo-b.component';
 import { ThemeComponent } from './theme/theme.component';
+import { ArticlesComponent } from './shop/articles/articles.component';
+
 
 
 @NgModule({
@@ -13,7 +15,8 @@ import { ThemeComponent } from './theme/theme.component';
     AppComponent,
     GrupoAComponent,
     GrupoBComponent,
-    ThemeComponent
+    ThemeComponent,
+    ArticlesComponent
   ],
   imports: [
     BrowserModule,
