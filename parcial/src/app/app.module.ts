@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { GrupoAComponent } from './grupo-a/grupo-a.component';
 import { GrupoBComponent } from './grupo-b/grupo-b.component';
 import { ThemeComponent } from './theme/theme.component';
-import { ArticlesComponent } from './shop/articles/articles.component';
+
 
 
 
@@ -16,7 +16,6 @@ import { ArticlesComponent } from './shop/articles/articles.component';
     GrupoAComponent,
     GrupoBComponent,
     ThemeComponent,
-    ArticlesComponent
   ],
   imports: [
     BrowserModule,

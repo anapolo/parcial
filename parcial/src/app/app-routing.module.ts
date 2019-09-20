@@ -27,7 +27,6 @@ const routes: Routes = [
 },
 {
     path: 'shop',
-    component: AppComponent,
     children: [
         {
             path: '',
